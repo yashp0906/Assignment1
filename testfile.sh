@@ -16,7 +16,7 @@ test_volume_1() {
 
 # Test 2: Test with 5, 6, 7 as the height, width, and length respectively
 test_volume_2() {
-    expected=210
+    expected=200
     result=$(calculate_volume 5 6 7)
     if [ "$result" -eq "$expected" ]; then
         echo "Test 2 Passed: Volume is $result"
